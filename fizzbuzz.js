@@ -13,16 +13,20 @@
 // Write a function that converts USD to any other currency of choice.
 
 
+
+
+
+
 // The FizzBuzz problem is a classic test given in coding interviews. 
 //The task is simple: Print integers 1 to N,  // (this is from the range 1 to n)
 //but print "Fizz" if an integer is divisible by 3, 
 //"Buzz" if an integer is divisible by 5, and "FizzBuzz" if an integer is divisible by both 3 and 5.
 
-// function FizzBuzz(n) {
-//     return // return is the same as "stop here"/ "done"
-// }
-// const FizzBuzz = (n) => {}
-// both functions above are the same just two different ways of writing it 
+    // function FizzBuzz(n) {
+    //     return // return is the same as "stop here"/ "done"
+    // }
+    // const FizzBuzz = (n) => {}
+    // both functions above are the same just two different ways of writing it 
 
 // return it in an array 
 function FizzBuzz(n) {
@@ -46,6 +50,14 @@ function FizzBuzz(n) {
 let finalResult= FizzBuzz(15)
 console.log (finalResult)
 
+// now return it in a list not in an array each in a new line
+// first way
+let list= finalResult.join('\n')
+console.log(list)
+//second way 
+for (let i=0;i<finalResult.length;i++){
+    console.log(finalResult[i])
+}
 
 // You are given 2 arrays, one called shoppingList and one called cart.
 // Create a new version of shoppingList where the items in the cart have been removed.
